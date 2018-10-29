@@ -1,8 +1,6 @@
 class Circle extends Figure{
 
     double radius;
-    double area = area();
-    double circumfence = circumfence();
 
     public Circle(int radius) {
         this.radius = radius;

@@ -2,8 +2,6 @@ class Rectangle extends Figure{
 
     int length;
     int width;
-    double area = area();
-    double circumfence = circumfence();
 
     public Rectangle(int length, int width) {
         this.length = length;

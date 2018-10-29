@@ -1,8 +1,6 @@
 class Square extends Figure{
 
     int length;
-    double area = area();
-    double circumfence = circumfence();
 
     public Square(int length) {
         this.length = length;

@@ -2,8 +2,6 @@ class Ellipse extends Figure{
 
     double mainAxis;
     double secondAxis;
-    double area = area();
-    double circumfence = circumfence();
 
     public Ellipse(double mainAxis, double secondAxis) {
         this.mainAxis = mainAxis;
