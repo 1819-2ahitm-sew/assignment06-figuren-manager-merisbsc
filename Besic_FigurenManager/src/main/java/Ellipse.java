@@ -22,7 +22,7 @@ class Ellipse extends Figure{
 
     @Override
     public String output() {
-        return "Rechteck mit Hauptachse " + this.mainAxis + " und Nebenachse " + this.secondAxis + ":\nFläche > " + area() + "\nUmfang > " + circumfence();
+        return "Ellipse mit Hauptachse " + this.mainAxis + " und Nebenachse " + this.secondAxis + ":\nFläche > " + area() + "\nUmfang > " + circumfence();
     }
 
 }
